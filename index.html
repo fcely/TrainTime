@@ -1,0 +1,86 @@
+<html>
+
+<head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="src_code_1.js"></script>
+        <script src="https://momentjs.com/downloads/moment.js"></script>
+
+</head>
+
+
+<body class="container">
+
+
+    
+  <h1 class="jumbotron">Anytime is Train Time</h1>          
+              
+
+        
+ 
+
+<div  Class="row bg-primary text-white"> Current Train Schedule </div>
+
+              <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Train Name</th>  
+                  <th scope="col">Destination</th>          
+                  <th scope="col">Frequency</th>
+                  <th scope="col">Next Arrival </th>
+                  <th scope="col">Minutes Away</th>
+                  <th scope="col">Cancel</th>
+                </tr>
+              </thead>
+              <tbody class="info">
+                
+              
+              </tbody>
+            </table>
+
+
+
+            
+            <div  Class="row bg-primary text-white mb-4"> Add Train </div>
+
+
+            <form id="inputform">
+              
+                      <label class="col-form-label" for="train_name"><b>Train Name</b></label>
+                      <input type="text"  class="form-control" id="train_name"  placeholder="Train Name" >
+                     
+                      <label class="col-form-label" for="destination"><b>Destination</b></label>
+                      <input type="text" class="form-control" id="destination"  placeholder="Destination" >            
+              
+                      <label  class="col-form-label" for="first_train_time"><b> First Train Time (HH:mm) Military Time </b></label>
+                      <input type="text" class="form-control" id="first_train_time"  placeholder="First Train Time" >            
+              
+                      <label class="col-form-label" for="frequency"><b>Frequency</b></label>
+                      <input type="number" class="form-control" id="frequency"  placeholder="Frequency" >                         
+              
+
+                              
+            
+              <button type="submit" class="btn btn-primary mt-2 " id="submit">Submit</button>
+               
+            </form>
+
+          
+
+
+
+
+                </body>
+
+
+</html>
+
+
+<style>
+
+
+
+
+</style>
