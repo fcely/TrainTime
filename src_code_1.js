@@ -18,8 +18,6 @@
 
 var database= firebase.database();
 
-
-
 $(document).on("click","#submit",function(){
 var train_name= $('#train_name').val()
 var destination = $('#destination').val()
