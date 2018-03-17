@@ -65,7 +65,7 @@ var current_mm=moment().format('mm')
  var minuto=current_mm*1+minutes_away*1
   var hora=current_hh*1
 
-  alert(current_mm + " away" + minutes_away)
+
   
  if(minuto>59){
 
